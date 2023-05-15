@@ -1,0 +1,43 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+}
+.principal{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.sobre{
+    width: 49%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.divResumo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 95%;
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.titulo{
+    font-size: 3.5rem;
+    color: #0D2949;
+
+}
+.resumo{
+    font-size: 2.4rem;
+    text-align: justify;
+}
+.divImgSisEst{
+    width: 49%;
+}
+.imgSistEst{
+    width: 100%;
+}
