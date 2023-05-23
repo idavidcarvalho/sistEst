@@ -122,7 +122,7 @@ STATIC_URL = 'static/'
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
-SATATICFILES_DIRS = [
+STATICFILES_DIRS = [
     BASE_DIR / 'globalstaticfiles'
 ]
 

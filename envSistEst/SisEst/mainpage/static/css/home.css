@@ -41,3 +41,55 @@ main{
 .imgSistEst{
     width: 100%;
 }
+.secundaria {
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 10px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.secundaria h2{
+    text-align: center;
+    font-size: 3rem;
+    margin: 10px 0;
+}
+.cards{
+
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    /* border: 1px solid black; */
+    width: 24%;
+    padding: 15px;
+    height: 250px;
+    background-color: #2062ad;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    
+}
+.card:hover{
+    background-color: #2d64a3;
+}
+.cardIcone{
+    font-size: 3rem;
+    
+}
+.cardTitulo{
+    font-size: 2.3rem;
+}
+.cardTexto{
+    font-size: 1.8rem;
+    text-align: justify;
+}
